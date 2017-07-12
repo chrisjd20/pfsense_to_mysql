@@ -7,9 +7,9 @@ Should be a good template for people to expand upon. Hope this helps someone!
 
 # Instructions:
 
-1. git clone
+1. git clone https://github.com/chrisjd20/pfsense_to_mysql.git
 
-2. cd pfsense_radius_to_mysql/pyrad-master
+2. cd pfsense_radius_to_mysql/pyrad-master       #This bit is important. The pyrad original from github needed minor modification to make it work
 
 3. python setup.py install
 
@@ -18,3 +18,7 @@ Should be a good template for people to expand upon. Hope this helps someone!
 5. pip install pytz
 
 6. pip install pymysql
+
+7. Set mysql database info in the script and set a shared secret at the bottom
+
+Run with "python server.py" (included a sample sql file for what this is looking for)
